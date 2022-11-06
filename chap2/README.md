@@ -75,3 +75,31 @@ Both equality operators have the same level of precedence, which is lower than t
 A condition is an expression that can be true or false.
 
 The equality operator should be read as “is equal to” and the assignment operator as “gets” or “gets the value of.” To avoid confusion, some people read the equality operator as “double equals” or “equals equals.”
+
+
+How to generate your project using an archetype : 
+
+We’ll use the maven-archetype-quickstart archetype for our example. Run the following from the command line in a directory where you want your project to be created:
+
+Open windows powershell
+mkdir chap2
+cd chap2
+
+ mvn archetype:generate -DgroupId="com.boostjava.training" -DartifactId="chap2exercices" -DarchetypeArtifactId="maven-archetype-quickstart" -DinteractiveMode=false
+
+Let’s break it down.
+
+mvn archtype:generate is the command we’re running. The -D prefix is used to add arguments to the command.
+
+We use -DgroupId to specify our group ID, which will be the high-level package we want this to be stored under. Your company may have a common convention they use, but this is really an arbitrary value. I picked com.boostjava.training, but it could have been anything.
+
+We use -DartifactId to name our project and the build artifact it creates. I was building a training courses, so I named mine chap2exercices.
+
+We use -DarchetypeArtifactId to specify the archetype, or project template, we’d like to use. We chose maven-archetype-quickstart.
+
+Finally, we use -DinteractiveMode=false to run this command without requiring any further interactive input from us.
+
+
+To run the tests from the maven command line with parameters.
+
+mvn clean install  test -DsuiteXmlFile="Testing.xml"  -DtestNames="group1" -DfirstNumber="12" -DsecondNumber="14"
