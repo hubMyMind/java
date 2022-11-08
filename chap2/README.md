@@ -103,3 +103,25 @@ Finally, we use -DinteractiveMode=false to run this command without requiring an
 To run the tests from the maven command line with parameters.
 
 mvn clean install  test -DsuiteXmlFile="Testing.xml"  -DtestNames="group1" -DfirstNumber="12" -DsecondNumber="14"
+
+===============================================================================================================
+If you are using Maven as your build tool, then you could trigger a single test via the following
+
+mvn clean test -Dtest=MyIntegrationTest
+
+where MyIntegrationTest.java resides under src/test/java
+
+If you would like to just run a method called fooBar() within MyIntegrationTest.java you would do
+
+mvn clean test -Dtest=MyIntegrationTest#fooBar
+
+
+Surefire plugin gives you this ability to single out test classes or test methods from within a test class for execution.
+
+
+
+mvn clean test -Dtest=Exercise2_14
+mvn clean test -Dtest=Exercise2_15 -DfirstNumber=12 -DsecondNumber=14
+mvn clean test -Dtest=Exercise2_16 -DfirstNumber=12 -DsecondNumber=14
+mvn clean test -Dtest=Exercise2_17 -DfirstNumber=12 -DsecondNumber=14 -DthirdNumber=19
+

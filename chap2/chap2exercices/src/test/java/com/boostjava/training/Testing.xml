@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="Suite1" verbose="1">
-   <parameter name="firstNumber" value="${firstNumber}"/>  
-   <parameter name="secondNumber" value="${secondNumber}"/>
-   <parameter name="thirdNumber" value="${thirdNumber}"/>    
-    <test name="group1" parallel="false" preserve-order="true">
+<suite name="Suite1" verbose="1">  
+    <test name="ex214" parallel="false" preserve-order="true">
       <classes>
-         <class name="com.boostjava.training.AppTest" />
+         <class name="com.boostjava.training.Exercise2_14" />
+      </classes>
+    </test>
+    <test name="ex215" parallel="false" preserve-order="true">
+      <parameter name="firstNumber" value="${firstNumber}"/>  
+      <parameter name="secondNumber" value="${secondNumber}"/>
+      <classes>
+         <class name="com.boostjava.training.Exercise2_15" />
+      </classes>
+    </test>
+    <test name="ex216" parallel="false" preserve-order="true">
+      <parameter name="firstNumber" value="${firstNumber}"/>  
+      <parameter name="secondNumber" value="${secondNumber}"/>
+      <classes>
+         <class name="com.boostjava.training.Exercise2_16" />
+      </classes>
+    </test>
+    <test name="ex217" parallel="false" preserve-order="true">
+      <parameter name="firstNumber" value="${firstNumber}"/>  
+      <parameter name="secondNumber" value="${secondNumber}"/>
+      <parameter name="thirdNumber" value="${thirdNumber}"/>  
+      <classes>
+         <class name="com.boostjava.training.Exercise2_17" />
       </classes>
     </test>
 
