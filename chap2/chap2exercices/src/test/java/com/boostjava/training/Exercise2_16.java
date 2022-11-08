@@ -10,7 +10,7 @@ public class Exercise2_16 {
       System.out.printf("======================>  %s:%n", exerciseNbr);
    }
 
-   private static void compare(Integer firstNumber, Integer secondNumber) {
+   private static void compare2Int(Integer firstNumber, Integer secondNumber) {
 
       Integer larger = Math.max(firstNumber, secondNumber);
       Integer minor = Math.min(firstNumber, secondNumber);
@@ -25,6 +25,6 @@ public class Exercise2_16 {
    @Parameters({ "firstNumber", "secondNumber" })
    public void Exercise2_16(Integer firstNumber, Integer secondNumber) {
       exerciseInfo("Exercise2_16()");
-      compare(firstNumber, secondNumber);
+      compare2Int(firstNumber, secondNumber);
    }
 }

@@ -29,5 +29,20 @@
          <class name="com.boostjava.training.Exercise2_17" />
       </classes>
     </test>
+    <test name="ex218" parallel="false" preserve-order="true">
+      <classes>
+         <class name="com.boostjava.training.Exercise2_18" />
+      </classes>
+    </test>
+    <test name="ex224" parallel="false" preserve-order="true">
+      <parameter name="firstNumber" value="${firstNumber}"/>  
+      <parameter name="secondNumber" value="${secondNumber}"/>
+      <parameter name="thirdNumber" value="${thirdNumber}"/>  
+      <parameter name="fourthNumber" value="${fourthNumber}"/>  
+      <parameter name="fifthNumber" value="${fifthNumber}"/>
+      <classes>
+         <class name="com.boostjava.training.Exercise2_24" />
+      </classes>
+    </test>
 
 </suite>

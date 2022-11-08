@@ -21,6 +21,14 @@ public class Exercise2_17 {
       System.out.printf("The %s is %d\n", operation, value);
    }
 
+   private static void compare3Int(Integer firstNumber, Integer secondNumber, Integer thirdNumber) {
+
+      Integer larger = Math.max(Math.max(firstNumber, secondNumber), thirdNumber);
+      Integer minor = Math.min(Math.min(firstNumber, secondNumber), thirdNumber);
+      System.out.printf("(:) %d is the smallest (:)%n", minor);
+      System.out.printf("(:) %d is the largest (:)%n", larger);
+   }
+
    @Test(enabled = true)
    @Parameters({ "firstNumber", "secondNumber", "thirdNumber" })
    public void Exercise2_17(Integer firstNumber, Integer secondNumber, Integer thirdNumber) {
@@ -29,6 +37,7 @@ public class Exercise2_17 {
       display("sum", (firstNumber + secondNumber + thirdNumber));
       display("product", (firstNumber * secondNumber * thirdNumber));
       display("average", (firstNumber + secondNumber + thirdNumber) / 3);
+      compare3Int(firstNumber, secondNumber, thirdNumber);
 
    }
 }
