@@ -6,10 +6,12 @@ import org.testng.annotations.Test;
 public class Exercise2_16 {
 
    private static void exerciseInfo(String exerciseNbr) {
+
       System.out.printf("======================>  %s:%n", exerciseNbr);
    }
 
    private static void compare(Integer firstNumber, Integer secondNumber) {
+
       Integer larger = Math.max(firstNumber, secondNumber);
       Integer minor = Math.min(firstNumber, secondNumber);
 

@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 public class Exercise2_14 {
 
    private static void exerciseInfo(String exerciseNbr) {
+
       System.out.printf("======================>  %s:%n", exerciseNbr);
    }
 
