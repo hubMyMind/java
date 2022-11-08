@@ -1,5 +1,6 @@
 package com.boostjava.training;
 
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -9,12 +10,13 @@ public class AppTest {
       System.out.printf("======================>  %s:%n", exerciseNbr);
    }
 
-   private static void argsInfo(Object firstNumber, Object secondNumber, Object thirdNumber) {
-      System.out.printf("============> firstNumber : %d%n", firstNumber);
-      System.out.printf("============> secondNumber : %d%n", secondNumber);
+   private static void argsInfo(Object firstNumber, Object secondNumber, @Optional
+   Object thirdNumber) {
+      System.out.printf("-First Number  = %d%n", firstNumber);
+      System.out.printf("-Second Number = %d%n", secondNumber);
 
       if (!thirdNumber.equals(null))
-         System.out.printf("============> thirdNumber : %d%n", (Integer) thirdNumber);
+         System.out.printf("-Third Number = %d%n", thirdNumber);
    }
 
    private static void display(String operation, Integer value) {
@@ -70,6 +72,7 @@ public class AppTest {
    @Parameters({ "firstNumber", "secondNumber", "thirdNumber" })
    public void Exercise2_17(Integer firstNumber, Integer secondNumber, Integer thirdNumber) {
       exerciseInfo("Exercise2_17()");
+      argsInfo(firstNumber, secondNumber, thirdNumber);
       display("sum", (firstNumber + secondNumber + thirdNumber));
       display("product", (firstNumber * secondNumber * thirdNumber));
       display("average", (firstNumber + secondNumber + thirdNumber) / 3);
