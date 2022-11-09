@@ -22,7 +22,7 @@ public class Exercise2_15 {
 
    @Test(enabled = true)
    @Parameters({ "firstNumber", "secondNumber" })
-   public void Exercise2_15(Integer firstNumber, Integer secondNumber) {
+   public void Exercise215(Integer firstNumber, Integer secondNumber) {
       exerciseInfo("Exercise2_15()");
       argsInfo(firstNumber, secondNumber);
 

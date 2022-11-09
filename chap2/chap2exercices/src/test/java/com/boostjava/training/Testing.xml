@@ -44,5 +44,18 @@
          <class name="com.boostjava.training.Exercise2_24" />
       </classes>
     </test>
+    <test name="ex225" parallel="false" preserve-order="true">
+      <parameter name="firstNumber" value="${firstNumber}"/>  
+      <classes>
+         <class name="com.boostjava.training.Exercise2_25" />
+      </classes>
+    </test>
+    <test name="ex226" parallel="false" preserve-order="true">
+      <parameter name="number1" value="${number1}"/> 
+      <parameter name="number2" value="${number2}"/>
+      <classes>
+         <class name="com.boostjava.training.Exercise2_26" />
+      </classes>
+    </test>
 
 </suite>
