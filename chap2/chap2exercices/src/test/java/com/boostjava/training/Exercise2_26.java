@@ -28,7 +28,7 @@ public class Exercise2_26 {
 
    @Parameters({ "number1", "number2" })
    @Test(enabled = true)
-   public void Exercise226(int number1, int number2) {
+   public void run(int number1, int number2) {
       exerciseInfo("Exercise2_26()");
       argsInfo(number1, number2);
       multiple(number1, number2);

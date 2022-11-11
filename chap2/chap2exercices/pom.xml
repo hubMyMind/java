@@ -29,7 +29,7 @@
          <configuration>
             <skipTests>false</skipTests>
             <suiteXmlFiles>
-               <suiteXmlFile>src/test/java/com/boostjava/training/Testing.xml</suiteXmlFile>
+               <suiteXmlFile>src/test/resources/Testing.xml</suiteXmlFile>
             </suiteXmlFiles>
          </configuration>
       </plugin>

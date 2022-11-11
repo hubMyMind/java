@@ -25,7 +25,7 @@ public class Exercise2_25 {
 
    @Test(enabled = true)
    @Parameters({ "firstNumber" })
-   public void Exercise225(Integer firstNumber) {
+   public void run(Integer firstNumber) {
       exerciseInfo("Exercise2_25()");
       argsInfo(firstNumber);
       multipleOf2(firstNumber);

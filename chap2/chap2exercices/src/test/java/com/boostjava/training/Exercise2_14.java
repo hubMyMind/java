@@ -4,14 +4,9 @@ import org.testng.annotations.Test;
 
 public class Exercise2_14 {
 
-   private static void exerciseInfo(String exerciseNbr) {
-
-      System.out.printf("======================>  %s:%n", exerciseNbr);
-   }
-
    @Test(enabled = true)
-   public void Exercise214() {
-      exerciseInfo("Exercise2_14()");
+   public void run() {
+      System.out.printf("======================>  %s:%n", "Exercise2_14()");
       System.out.println("One println statement :");
       System.out.println("1 2 3 4");
       System.out.println("Four statement :");

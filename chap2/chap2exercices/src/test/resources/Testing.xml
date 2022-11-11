@@ -57,5 +57,56 @@
          <class name="com.boostjava.training.Exercise2_26" />
       </classes>
     </test>
+    <test name="ex227" parallel="false" preserve-order="true">
+      <classes>
+         <class name="com.boostjava.training.Exercise2_27" />
+      </classes>
+    </test>
+    <test name="ex228" parallel="false" preserve-order="true">
+      <parameter name="radius" value="${radius}"/> 
+      <classes>
+         <class name="com.boostjava.training.Exercise2_28" />
+      </classes>
+    </test>
+    <test name="ex229" parallel="false" preserve-order="true">
+      <classes>
+         <class name="com.boostjava.training.Exercise2_29" />
+      </classes>
+    </test>
+    <test name="ex230" parallel="false" preserve-order="true">
+      <parameter name="number" value="${number}"/> 
+      <classes>
+         <class name="com.boostjava.training.Exercise2_30" />
+      </classes>
+    </test>
+    <test name="ex231" parallel="false" preserve-order="true">
+      <classes>
+         <class name="com.boostjava.training.Exercise2_31" />
+      </classes>
+    </test>
+    <test name="ex232" parallel="false" preserve-order="true">
+      <parameter name="nbr" value="${nbr}"/>  
+      <parameter name="nbr1" value="${nbr1}"/>
+      <parameter name="nbr2" value="${nbr2}"/>  
+      <parameter name="nbr3" value="${nbr3}"/>  
+      <parameter name="nbr4" value="${nbr4}"/>
+      <classes>
+         <class name="com.boostjava.training.Exercise2_32" />
+      </classes>
+    </test>
+    <test name="ex233" parallel="false" preserve-order="true">
+      <parameter name="weightInKilograms" value="${weightInKilograms}"/>  
+      <parameter name="heightInMeters" value="${heightInMeters}"/>
+      <classes>
+         <class name="com.boostjava.training.Exercise2_33" />
+      </classes>
+    </test>
+    <test name="ex234" parallel="false" preserve-order="true">
+      <parameter name="currentWorldPopulation" value="${currentWorldPopulation}"/>  
+      <parameter name="annualGrowthRate" value="${annualGrowthRate}"/>
+      <classes>
+         <class name="com.boostjava.training.Exercise2_34" />
+      </classes>
+    </test>
 
 </suite>

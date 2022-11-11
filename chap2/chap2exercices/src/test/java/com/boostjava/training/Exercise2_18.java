@@ -10,7 +10,7 @@ public class Exercise2_18 {
    }
 
    @Test(enabled = true)
-   public void Exercise218() {
+   public void run() {
       exerciseInfo("Exercise2_18()");
       System.out.println("*********       ***          *         *                ");
       System.out.println("*       *     *     *       ***       *  *              ");

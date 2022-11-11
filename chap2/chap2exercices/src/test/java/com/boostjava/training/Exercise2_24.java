@@ -37,7 +37,7 @@ public class Exercise2_24 {
 
    @Test(enabled = true)
    @Parameters({ "firstNumber", "secondNumber", "thirdNumber", "fourthNumber", "fifthNumber" })
-   public void Exercise224(Integer firstNumber, Integer secondNumber, Integer thirdNumber, Integer fourthNumber,
+   public void run(Integer firstNumber, Integer secondNumber, Integer thirdNumber, Integer fourthNumber,
             Integer fifthNumber) {
       exerciseInfo("Exercise2_24()");
       argsInfo(firstNumber, secondNumber, thirdNumber, fourthNumber, fifthNumber);

@@ -31,7 +31,7 @@ public class Exercise2_17 {
 
    @Test(enabled = true)
    @Parameters({ "firstNumber", "secondNumber", "thirdNumber" })
-   public void Exercise217(Integer firstNumber, Integer secondNumber, Integer thirdNumber) {
+   public void run(Integer firstNumber, Integer secondNumber, Integer thirdNumber) {
       exerciseInfo("Exercise2_17()");
       argsInfo(firstNumber, secondNumber, thirdNumber);
       display("sum", (firstNumber + secondNumber + thirdNumber));

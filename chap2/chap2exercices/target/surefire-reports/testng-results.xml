@@ -2,33 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="com.boostjava.training.Exercise2_17" duration-ms="45" started-at="2022-11-08T21:18:34 CET" finished-at="2022-11-08T21:18:34 CET">
+  <suite name="com.boostjava.training.Exercise2_34" duration-ms="43" started-at="2022-11-11T18:35:09 CET" finished-at="2022-11-11T18:35:10 CET">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="45" started-at="2022-11-08T21:18:34 CET" finished-at="2022-11-08T21:18:34 CET">
-      <class name="com.boostjava.training.Exercise2_17">
-        <test-method status="PASS" signature="Exercise2_17(java.lang.Integer, java.lang.Integer, java.lang.Integer)[pri:0, instance:com.boostjava.training.Exercise2_17@7f9a81e8]" name="Exercise2_17" duration-ms="7" started-at="2022-11-08T21:18:34 CET" finished-at="2022-11-08T21:18:34 CET">
+    <test name="Command line test" duration-ms="43" started-at="2022-11-11T18:35:09 CET" finished-at="2022-11-11T18:35:10 CET">
+      <class name="com.boostjava.training.Exercise2_34">
+        <test-method status="PASS" signature="run(double, double)[pri:0, instance:com.boostjava.training.Exercise2_34@7f9a81e8]" name="run" duration-ms="4" started-at="2022-11-11T18:35:10 CET" finished-at="2022-11-11T18:35:10 CET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[12]]>
+                <![CDATA[7800.0]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[14]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[19]]>
+                <![CDATA[0.9]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Exercise2_17 -->
-      </class> <!-- com.boostjava.training.Exercise2_17 -->
+        </test-method> <!-- run -->
+      </class> <!-- com.boostjava.training.Exercise2_34 -->
     </test> <!-- Command line test -->
-  </suite> <!-- com.boostjava.training.Exercise2_17 -->
+  </suite> <!-- com.boostjava.training.Exercise2_34 -->
 </testng-results>
