@@ -108,5 +108,13 @@
          <class name="com.boostjava.training.Exercise2_34" />
       </classes>
     </test>
+    <test name="ex235" parallel="false" preserve-order="true">
+      <parameter name="totalMilesDrivenPerDay" value="${totalMilesDrivenPerDay}"/>  
+      <parameter name="parkingFeesPerDay" value="${parkingFeesPerDay}"/>
+      <parameter name="tollsPerDay" value="${tollsPerDay}"/>
+      <classes>
+         <class name="com.boostjava.training.Exercise2_35" />
+      </classes>
+    </test>
 
 </suite>
